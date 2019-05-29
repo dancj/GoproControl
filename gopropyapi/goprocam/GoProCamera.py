@@ -3,7 +3,7 @@ import socket
 import urllib.request
 import json
 import re
-from goprocam import constants
+from gopropyapi.goprocam import constants
 import datetime
 import struct
 import subprocess
