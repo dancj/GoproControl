@@ -1,24 +1,27 @@
 from gopropyapi.goprocam import GoProCamera
 from gopropyapi.goprocam import constants
-import time, datetime
+import time
+import datetime
 from threading import Timer
-import sys, os
+import sys
+import os
+import config
 
 
 class gpTimeLapse:
-    # gpCam = GoProCamera.GoPro()
-    interval = 10  # seconds between shots
+    gpCam = GoProCamera.GoPro()
+    interval = int(config.GOPRO_CONFIG["interval"])  # seconds between shots
 
     def __init__(self):
         # redirect stdout to file
         # ref: https://stackoverflow.com/questions/11124093/redirect-python-print-output-to-logger/11124247
         path = os.path.join(os.path.dirname(__file__), "log/timelapse_" + str(time.time()) + ".log")
-        print("Now going to redirect log output to file at ", path, "- Bye bye!")
+        print("Now going to redirect log output to file at ", path, " so going quiet - Bye bye!")
         log = open(path, "a")
         sys.stdout = log
 
     def take_photo(self):
-        path = "test" # self.gpCam.take_photo(0)
+        path = self.gpCam.take_photo(0)
         return path
 
     def run_timelapse(self):
