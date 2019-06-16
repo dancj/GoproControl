@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c657cc-d4c2-410a-8a5a-ae9eed8a8581" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/goprocontrol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goprocontrol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gptimelapse.py" beforeDir="false" afterPath="$PROJECT_DIR$/gptimelapse.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gptimelapse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="195">
+              <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -54,7 +52,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,18 +62,13 @@
             <path>
               <item name="goprocontrol" type="b2602c69:ProjectViewProjectNode" />
               <item name="goprocontrol" type="462c0819:PsiDirectoryNode" />
-              <item name="gopropyapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goprocontrol" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goprocontrol" type="462c0819:PsiDirectoryNode" />
-              <item name="gopropyapi" type="462c0819:PsiDirectoryNode" />
-              <item name="goprocam" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -84,6 +76,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/log" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gopropyapi" />
     </key>
@@ -140,12 +135,12 @@
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -236,10 +231,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/timelapse_1560658918.525294.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timelapse_1560482328.061831.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timelapse_1560482078.127577.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/gptimelapse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="195">
+          <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
