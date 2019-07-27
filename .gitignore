@@ -128,3 +128,6 @@ dmypy.json
 
 # IDEs
 .idea/
+
+# gopro log files
+log/
