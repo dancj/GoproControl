@@ -33,7 +33,7 @@ This solution allows for:
  
 * Flash RPi with Debian - [RPi docs](https://www.raspberrypi.org/documentation/installation/installing-images/) 
 * Go through basic setup with raspi-config to set localization and wifi country
-```markdown
+```pythonstub
 # if it doesn't start automatically, can launch raspi-config from command line -
 sudo raspi-config
 
