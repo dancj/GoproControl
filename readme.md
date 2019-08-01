@@ -12,30 +12,31 @@ There are certainly cheaper cameras for this project, but if you already have a 
 
 ### Environment Setup
  
-1. Set up raspberry pi with Debian - [docs](https://www.raspberrypi.org/documentation/installation/installing-images/) 
-2. Go through basic setup with raspi-config to set localization and wifi country
-3. Install pip3 (this project uses Python3 due to the GoPro library)
+* Set up raspberry pi with Debian - [docs](https://www.raspberrypi.org/documentation/installation/installing-images/) 
+* Go through basic setup with raspi-config to set localization and wifi country
+* Install pip3 (this project uses Python3 due to the GoPro library)
 ```
 sudo apt-get install python3-pip
 pip3 install request
 ```
-4. Set static IP address 
+* Set static IP address 
 ``` /etc/dhcpcd.conf ```
-5. Set wifi settings in wpa_supplicant file
+* Set wifi settings in wpa_supplicant file
 ``` /etc/wpa_supplicant/wpa_supplicant.conf ```
 
 ### App Setup
 
-1. Clone this project 
-1. Edit config.py and set desired settings (interval, etc.)
+* Clone this project 
+* Edit config.py and set desired settings (interval, etc.)
 
 ### Runtime Config
 
-1. Edit ~/.bash_profile to launch the run script on startup
-1. Configure lxterminal to run on startup so it will start our script
+* Edit ~/.bash_profile to launch the run script on startup
+* Configure lxterminal to run on startup so it will start our script
 
 ## Hardware
 Used a suction cup window mount - [link](https://www.amazon.com/gp/product/B01EF3Q8SU/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
+
 * the suction held for about a week without falling.  Beyond that use painters tape or something for extra support.
 Skeleton housing that allows camera to run with power cable connected - [link](https://www.amazon.com/gp/product/B00GLJBYRC/ref=ppx_od_dt_b_asin_title_s01?ie=UTF8&psc=1)
 
