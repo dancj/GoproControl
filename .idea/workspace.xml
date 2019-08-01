@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34c657cc-d4c2-410a-8a5a-ae9eed8a8581" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/gopropyapi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gopropyapi/examples/take_photo_10sec.py" beforeDir="false" afterPath="$PROJECT_DIR$/gopropyapi/examples/take_photo_10sec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gopropyapi/goprocam/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gopropyapi/goprocam/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gopropyapi/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/gopropyapi/setup.py" afterDir="false" />
@@ -35,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="600">
-                <caret line="40" column="119" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
+              <first_editor relative-caret-position="401">
+                <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -239,8 +238,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="600">
-            <caret line="40" column="119" selection-start-line="40" selection-start-column="119" selection-end-line="40" selection-end-column="119" />
+          <first_editor relative-caret-position="401">
+            <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>

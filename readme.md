@@ -1,8 +1,6 @@
 # GoPro Timelapse Control
 
-This projects extends the built-in timelapse capabilities of the GoPro by controlling the camera functions over the camera's built-in WiFi.  The GoPro can broadcast its own WiFi network that will accept one connection.
- 
-This may be a very specific use case, but I wanted to shoot a construction timelapse at 10 minute interval and my GoPro Hero4 Silver only supports up to 30 second intervals. 
+This projects extends the built-in timelapse capabilities of the GoPro by controlling the camera functions over the camera's built-in WiFi.  The GoPro can broadcast its own WiFi network that will accept one connection.  This may be a very specific use case, but I wanted to shoot a construction timelapse at 10 minute interval and my GoPro Hero4 Silver only supports up to 30 second intervals. 
 
 I needed a solution that allowed for:
  * Longer intervals (>60 sec)
@@ -37,10 +35,9 @@ There are certainly cheaper cameras for this project, but if you already have a 
 1. Configure lxterminal to run on startup so it will start our script
 
 ## Hardware
-Used a suction cup window mount [link](https://www.amazon.com/gp/product/B01EF3Q8SU/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
-    * the suction held for about a week without falling.  Beyond that use painters tape or something for extra support.
-Skeleton housing that allows camera to run with power cable connected [link](https://www.amazon.com/gp/product/B00GLJBYRC/ref=ppx_od_dt_b_asin_title_s01?ie=UTF8&psc=1)
-
+Used a suction cup window mount - [link](https://www.amazon.com/gp/product/B01EF3Q8SU/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
+* the suction held for about a week without falling.  Beyond that use painters tape or something for extra support.
+Skeleton housing that allows camera to run with power cable connected - [link](https://www.amazon.com/gp/product/B00GLJBYRC/ref=ppx_od_dt_b_asin_title_s01?ie=UTF8&psc=1)
 
 ### Tested configuration
 * GoPro Hero 4 Silver
@@ -53,7 +50,7 @@ Skeleton housing that allows camera to run with power cable connected [link](htt
  
 ## Dependencies
  
-This project uses the (Unofficial GoPro API Library for Python)[https://github.com/KonradIT/gopro-py-api]
+This project uses the [Unofficial GoPro API Library for Python](https://github.com/KonradIT/gopro-py-api)
  
 
  
