@@ -61,15 +61,15 @@ _RPi Runtime Config_
 
 ### Quick Start
 
-After going through RPI setup, turn GoPro WiFi setting on. Power up RPi and it will launch the timelapse script on bootup. Make sure the camera starts taking photos, and that's it!
+After going through RPI setup, turn GoPro WiFi setting on. Power up RPi and it will connect to the camera's WiFi and launch the timelapse script on bootup. 
 
-LEDs, sounds, and display can all be disabled in GoPro settings if desired.
+Make sure the camera starts taking photos, and that's it!
+
+Camera LEDs, sounds, and display can all be disabled in GoPro settings if desired.
 
 
 ### Accessories
-Used a suction cup window mount - [link](https://www.amazon.com/gp/product/B01EF3Q8SU/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
-
-* suction held for about a week without falling.  Beyond that use painters tape or something for extra support.
+Used a suction cup window mount - [link](https://www.amazon.com/gp/product/B01EF3Q8SU/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1). Suction held for about a week without falling.  Beyond that use painters tape or something for extra support.
 
 Skeleton housing that allows camera to run with power cable connected - [link](https://www.amazon.com/gp/product/B00GLJBYRC/ref=ppx_od_dt_b_asin_title_s01?ie=UTF8&psc=1)
 
