@@ -1,12 +1,12 @@
 # GoPro Timelapse Control
 
-GoPro + Raspberry Pi = Timelapse
+**GoPro + Raspberry Pi = Timelapse**
 
 This solution allows for:
 
 * Longer intervals (>60 sec)
 
-* Timelapse saved as still images to later combine together in Lightroom or LRTimelapse 
+* Timelapse saved as still images to later combine together in Lightroom, LRTimelapse, etc.
 
 
 ## Compatibility:
@@ -33,15 +33,20 @@ This solution allows for:
  
 * Flash RPi with Debian - [RPi docs](https://www.raspberrypi.org/documentation/installation/installing-images/) 
 * Go through basic setup with raspi-config to set localization and wifi country
-* Install pip3 (this project uses Python3 due to the GoPro library)
-```
+```markdown
+# if it doesn't start automatically, can launch raspi-config from command line -
+sudo raspi-config
+
+# install pip3 and gopropy dependencies (this project uses Python3 due to the gopropy library)
 sudo apt-get install python3-pip
 pip3 install request
+
+# Set static IP address in the default GoPro subnet 
+#  TODO /etc/dhcpcd.conf
+
+# Set wifi settings in wpa_supplicant file
+# TODO: /etc/wpa_supplicant/wpa_supplicant.conf
 ```
-* Set static IP address 
-``` /etc/dhcpcd.conf ```
-* Set wifi settings in wpa_supplicant file
-``` /etc/wpa_supplicant/wpa_supplicant.conf ```
 
 _GoProControl App Setup_
 
