@@ -3,7 +3,9 @@
 This projects extends the built-in timelapse capabilities of the GoPro by controlling the camera functions over the camera's built-in WiFi.  The GoPro can broadcast its own WiFi network that will accept one connection.  This may be a very specific use case, but I wanted to shoot a construction timelapse at 10 minute interval and my GoPro Hero4 Silver only supports up to 30 second intervals. 
 
 I needed a solution that allowed for:
+
 * Longer intervals (>60 sec)
+
 * Timelapse saved as still images to later combine together in Lightroom or LRTimelapse 
 
 There are certainly cheaper cameras for this project, but if you already have a GoPro why not make use of it.
