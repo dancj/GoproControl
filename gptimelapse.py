@@ -15,7 +15,11 @@ class gpTimeLapse:
     def __init__(self):
         # redirect stdout to file
         # ref: https://stackoverflow.com/questions/11124093/redirect-python-print-output-to-logger/11124247
-        path = os.path.join(os.path.dirname(__file__), "log/timelapse_" + str(time.time()) + ".log")
+        directory = os.path.join(os.path.dirname(__file__), "log/")
+        filename = "timelapse_" + str(time.time()) + ".log"
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        path = os.path.join(directory, filename)
         print("Now going to redirect log output to file at ", path, " so going quiet - Bye bye!")
         log = open(path, "a")
         sys.stdout = log
@@ -25,7 +29,11 @@ class gpTimeLapse:
         return path
 
     def run_timelapse(self):
-        path = self.take_photo()
+        try:
+            path = self.take_photo()
+        except TypeError:
+            print("Error, no camera found. Please connect to GoPro's wifi network first and try again!")
+            return
 
         timestamp = time.time()
         formatted_time = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
@@ -36,7 +44,7 @@ class gpTimeLapse:
 
 
 if __name__ == '__main__':
-    print("Running timelapse...")
+    print("Running GPtimelapse... you must already be connected to the GoPro's built in WiFi for this to work")
     gpTimelapse = gpTimeLapse()
     gpTimelapse.run_timelapse()
 

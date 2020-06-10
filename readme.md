@@ -1,12 +1,12 @@
-# GoPro Timelapse Control
+# (Unofficial) GoPro Timelapse Control
 
 **GoPro + Raspberry Pi = Timelapse**
 
-This solution allows for:
+This solution extends the built in functionality of the GoPro around capturing timelapse videos. This project run on a device connected to your GoPro's wifi network can send commands to capture frames when you want them.  I used it on a Raspberry Pi 3B+ to record a construction timelapse, taking a photo every 10 minutes for 6 weeks straight. 
 
 * Longer intervals (>60 sec)
 
-* Timelapse saved as still images to later combine together in Lightroom, LRTimelapse, etc.
+* Timelapse frames saved as still images to later combine together in Lightroom, LRTimelapse, etc. with greater customization
 
 
 ## Compatibility:
