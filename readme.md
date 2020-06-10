@@ -2,7 +2,9 @@
 
 **GoPro + Raspberry Pi = Timelapse**
 
-This solution extends the built in functionality of the GoPro around capturing timelapse videos. This project run on a device connected to your GoPro's wifi network can send commands to capture frames when you want them.  I used it on a Raspberry Pi 3B+ to record a construction timelapse, taking a photo every 10 minutes for 6 weeks straight. 
+This solution extends the built in functionality of the GoPro around capturing timelapse videos. This project runs on a device connected to your GoPro's wifi network can send commands to capture frames when you want them.  I used it on a Raspberry Pi 3B+ and GoPro Hero4 to record a construction timelapse, taking a photo every 10 minutes for 6 weeks straight. 
+
+Useful added features:
 
 * Longer intervals (>60 sec)
 
